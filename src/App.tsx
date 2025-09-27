@@ -157,13 +157,13 @@ export default function App() {
       </section>
 
       {/* Problema */}
-      <section className="py-16 px-4" style={{ backgroundColor: '#d2ab80' }}>
+      <section className="py-16 px-4" style={{ backgroundColor: '#809671' }}>
         <div className="max-w-4xl mx-auto text-center">
           <Badge className="mb-6 bg-red-100 text-red-800">
             ⚠️ Você se identifica?
           </Badge>
           
-          <h2 className="mb-8 text-3xl font-bold text-gray-900">
+          <h2 className="mb-8 text-3xl font-bold text-white">
             Se você está aqui, provavelmente...
           </h2>
 
@@ -201,9 +201,9 @@ export default function App() {
             </Card>
           </div>
 
-          <p className="text-xl text-slate-600 mb-8 italic">
+          <p className="text-xl text-white mb-8 italic">
             Se você se identificou com pelo menos uma dessas situações, 
-            <strong className="text-teal-600"> tenho a solução para você.</strong>
+            <strong className="text-black-500"> tenho a solução para você.</strong>
           </p>
         </div>
       </section>
@@ -321,7 +321,7 @@ Agora, quero fazer o mesmo por você: transformar o seu Instagram em um canal de
       </section>
 
       {/* Briefing Gratuito - Destaque Principal */}
-      <section className="py-20 px-4 bg-gradient-to-r from-gray-900 via-teal-900 to-gray-900 text-white relative overflow-hidden">
+      <section className="py-20 px-4 text-white relative overflow-hidden" style={{ backgroundColor: '#809671' }}>
         {/* Background Elements */}
         <div className="absolute inset-0">
           <div className="absolute top-20 left-20 w-72 h-72 bg-teal-500/10 rounded-full blur-3xl"></div>
@@ -340,7 +340,7 @@ Agora, quero fazer o mesmo por você: transformar o seu Instagram em um canal de
             Descubra AGORA o que está travando seu Instagram
           </h2>
           
-          <p className="mb-8 text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
+          <p className="mb-8 text-xl text-white max-w-3xl mx-auto leading-relaxed">
             Responda 10 perguntas estratégicas e receba um <strong className="text-orange-400">Briefing completo e personalizado </strong> 
             do seu perfil em até 24h no seu e-mail.
           </p>
@@ -350,15 +350,15 @@ Agora, quero fazer o mesmo por você: transformar o seu Instagram em um canal de
             <div className="grid md:grid-cols-3 gap-6 text-left">
               <div className="flex items-start space-x-3">
                 <CheckCircle2 className="h-6 w-6 text-orange-400 mt-1 flex-shrink-0" />
-                <span className="text-gray-200">O que está funcionando no seu instagram</span>
+                <span className="text-white">O que está funcionando no seu instagram</span>
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle2 className="h-6 w-6 text-orange-400 mt-1 flex-shrink-0" />
-                <span className="text-gray-200">Onde melhorar de forma simples</span>
+                <span className="text-white">Onde melhorar de forma simples</span>
               </div>
               <div className="flex items-start space-x-3">
                 <CheckCircle2 className="h-6 w-6 text-orange-400 mt-1 flex-shrink-0" />
-                <span className="text-gray-200">Quais passos seguir para atrair mais clientes</span>
+                <span className="text-white">Quais passos seguir para atrair mais clientes</span>
               </div>
             </div>
           </div>
@@ -367,7 +367,7 @@ Agora, quero fazer o mesmo por você: transformar o seu Instagram em um canal de
             <p className="text-2xl text-orange-300 mb-4">
               ⏰ <strong>Tempo limitado</strong>
             </p>
-            <p className="text-lg text-gray-300">
+            <p className="text-lg text-white-300">
               Mais de 200 empreendedoras já receberam e transformaram seus resultados
             </p>
           </div>
@@ -382,7 +382,7 @@ Agora, quero fazer o mesmo por você: transformar o seu Instagram em um canal de
             <ArrowRight className="ml-3 h-6 w-6" />
           </Button>
 
-          <p className="mt-6 text-gray-400 text-sm">
+          <p className="mt-6 text-white text-sm">
             ✅ 100% Gratuito • ✅ Sem compromisso • ✅ Resultado em 24h
           </p>
         </div>
@@ -446,16 +446,16 @@ Agora, quero fazer o mesmo por você: transformar o seu Instagram em um canal de
       </section>
 
       {/* CTA Final */}
-      <section className="py-16 px-4 bg-gradient-to-br from-slate-900 to-black text-white">
+      <section className="py-16 px-4 text-white " style={{ backgroundColor: '#809671' }}>
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="mb-6 text-3xl font-bold text-white">
             Pare de desperdiçar tempo e dinheiro no Instagram
           </h2>
           
-          <p className="mb-8 text-xl text-gray-300 max-w-3xl mx-auto">
+          <p className="mb-8 text-xl text-white max-w-3xl mx-auto">
             Enquanto você está tentando descobrir sozinha, suas concorrentes estão vendendo mais.
             <br /><br />
-            <strong className="text-orange-400">Não deixe para depois. Comece sua transformação hoje.</strong>
+            <strong className="text-white">Não deixe para depois. Comece sua transformação hoje.</strong>
           </p>
           
           <Button 
@@ -466,14 +466,14 @@ Agora, quero fazer o mesmo por você: transformar o seu Instagram em um canal de
             🚀 QUERO TRANSFORMAR MEU INSTAGRAM AGORA
           </Button>
           
-          <p className="mt-6 text-gray-400">
+          <p className="mt-6 text-white">
             ✅ Briefing completo • ✅ 100% gratuito • ✅ Sem compromisso
           </p>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="px-4 py-8 bg-black text-center text-gray-400">
+      <footer className="px-4 py-8 text-center text-gray-400" style={{ backgroundColor: '#f3f4f6' }}>
         <p>© 2024 Polianna Moura - Social Media Estratégica | Transformando Instagram em máquinas de vendas</p>
       </footer>
 
