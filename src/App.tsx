@@ -92,10 +92,10 @@ export default function App() {
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <Button 
                   size="lg" 
-                  className="bg-gradient-to-r from-gray-900 to-orange-500 hover:from-black hover:to-orange-600 px-8 py-6 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200 text-lg"
+                  className="bg-gradient-to-r from-gray-900 to-orange-500 hover:from-black hover:to-orange-600 px-8 py-6 rounded-full shadow-lg transform hover:scale-105 transition-all duration-200 text-lg "
                   onClick={() => setIsBriefingModalOpen(true)}
                 >
-                  <Gift className="mr-2 h-5 w-5" />
+                  <Gift className="mr-2 h-5 w-5 " />
                   Quero meu Briefing Gratuito
                 </Button>
                 

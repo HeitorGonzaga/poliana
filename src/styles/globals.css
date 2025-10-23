@@ -187,3 +187,18 @@
 html {
   font-size: var(--font-size);
 }
+
+
+
+@keyframes pulseCustom {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+}
+
+.pulse {
+  animation: pulseCustom 1.5s ease-in-out infinite;
+}
